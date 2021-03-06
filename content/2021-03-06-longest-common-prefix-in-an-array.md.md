@@ -19,7 +19,6 @@ arr[] = {geeksforgeeks, geeks, geek,
 Output: gee
 Explanation: "gee" is the longest common
 prefix in all the given strings.
-
 ```
 
 **Example 2:**
@@ -31,7 +30,6 @@ arr[] = {hello, world}
 Output: -1
 Explanation: There's no common prefix
 in the given strings.
-
 ```
 
 \
@@ -49,7 +47,7 @@ You don't need to read input or print anything. Your task is to complete the fun
 
 **Solution:**
 
-```
+```cpp
 string longestCommonPrefix (string arr[], int N) {
     int count=0, minn=INT_MAX;
     string s="";
@@ -79,5 +77,4 @@ string longestCommonPrefix (string arr[], int N) {
     }
     return s; 
 }
-
 ```
